@@ -1,5 +1,8 @@
 extends layout
+head
+  link(rel="stylesheet", href="/public/stylesheets/style.css")
 
 block content
-  p Welcome to #{title}
-  p This website is currently under construction.
+  div(id='images')
+      img(src=imgFile, alt='')
+  
